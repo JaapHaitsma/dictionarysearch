@@ -1,0 +1,85 @@
+<!-- $Id: dictionarysearch.dtd,v 1.1 2005/11/05 23:09:02 jaap Exp $ -->
+
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   -
+   - The Initial Developer of the Original Code is Jaap Haitsma.
+   - Portions created by the Initial Developer are Copyright (C) 2003
+   - by the Initial Developer. All Rights Reserved.
+ 
+   - Contributor(s): Jaap Haitsma <jaap@haitsma.org>
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!--DO NOT Translate the next three items -->
+<!ENTITY dictionarysearch.title                             "Dictionary Search">
+<!ENTITY dictionarysearch.homepage.URL                      "http://dictionarysearch.mozdev.org">
+<!ENTITY dictionarysearch.default.URL                       "http://www.tfd.com/$">
+<!-- ################################################################################################ -->
+
+<!ENTITY dictionarysearch.default.menutext                  "Najít ve slovníku &quot;$&quot;">
+<!-- The accesskey should be a letter that is in the default.menutext -->
+<!ENTITY dictionarysearch.default.accesskey                 "N">
+
+<!ENTITY dictionarysearch.menutext                          "Text:">
+<!ENTITY dictionarysearch.accesskey                         "Klávesová zkratka:">
+<!ENTITY dictionarysearch.url                               "URL:">
+
+<!ENTITY dictionarysearch.dictionary                        "Slovník">
+<!ENTITY dictionarysearch.settings                          "Nastavení">
+
+
+<!ENTITY dictionarysearch.help.par1.text                    "V dialogovém okně nastavení DictionarySearch můžete určit slovník, který chcete použít
+                                                             a text, který se má objevit v kontextovém menu."> 
+
+
+<!ENTITY dictionarysearch.help.par2.title                   "Text"> 
+
+<!ENTITY dictionarysearch.help.par2.text1                   "Toto je text položky, která se objeví v kontextovém menu. Text by měl obsahovat znak 
+                                                              $. Tento znak bude nahrazen označeným hledaným výrazem. Můžete použít např.:"> 
+
+<!ENTITY dictionarysearch.help.par2.text2                   "Pokud necháte tuto položku nevyplněnou, do kontextového menu nebude daný slovník přidán.
+                                                             ">
+
+
+<!ENTITY dictionarysearch.help.par3.title                   "Klávesová zkratka"> 
+
+<!ENTITY dictionarysearch.help.par3.text1                   "Klávesová zkratka značí klávesu použitou pro přístup ke slovníku z klávesnice. Písmeno bude v 
+                                                             položce kontextovém menu podtrženo. Text položky by měl toto písmeno obsahovat."> 
+
+
+<!ENTITY dictionarysearch.help.par4.title                    "URL"> 
+
+<!ENTITY dictionarysearch.help.par4.text1                    "Toto je adresa online slovníku, který chcete použít. Adresa by měla obsahovat
+                                                              znak $. Znak bude nahrazen označeným hledaným výrazem. Pro překlad z angličtiny do češtiny 
+                                                              lze použít GNU/FDL Anglicko-Český slovník na http://slovnik.zcu.cz/online. Do URL zapište: 
+                                                              http://slovnik.zcu.cz/online/index.php?word=$. Implicitně je v DictionarySearch použit 
+                                                              slovník TheFreeDictionary.com (http://www.tfd.com) jehož záznam v URL je:"> 
+
+
+<!ENTITY dictionarysearch.help.par4.text2                     "Pro seznam slovníků navštivte:">
+
+

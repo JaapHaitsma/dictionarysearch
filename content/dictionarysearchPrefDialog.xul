@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<!--$Id: dictionarysearchPrefDialog.xul,v 1.8 2010/03/13 18:48:42 jaap Exp $-->
+
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   -
+   - The Initial Developer of the Original Code is Jaap Haitsma.
+   - Portions created by the Initial Developer are Copyright (C) 2003
+   - by the Initial Developer. All Rights Reserved.
+ 
+   - Contributor(s): Jaap Haitsma <jaap@haitsma.org>
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<!DOCTYPE window SYSTEM "chrome://dictionarysearch/locale/dictionarysearch.dtd" >
+
+
+<dialog id="dictionary_search_settings_dialog"
+        title="&dictionarysearch.title;"
+        buttons="accept,cancel, help"
+        onload="org.mozdev.dictionarysearch.loadSettings()"
+        minwidth="450"
+        ondialoghelp="window.openDialog('chrome://dictionarysearch/content/dictionarysearchHelpDialog.xul');"
+        ondialogaccept="org.mozdev.dictionarysearch.saveSettings()"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        xmlns:html="http://www.w3.org/1999/xhtml">
+
+<script src="dictionarysearchOverlay.js"/>
+
+<stringbundle id="dictionarysearch_string_bundle" src="chrome://dictionarysearch/locale/dictionarysearch.properties"/>
+
+
+<groupbox orient="Vertical" width="100%">
+  <caption label="&dictionarysearch.settings;"/>
+
+
+    <description><html:b>&dictionarysearch.dictionary; 1</html:b></description>
+    <grid flex="1">
+      <columns>
+        <column flex="0"/>
+        <column flex="1"/>
+      </columns>
+      <rows>
+        <row>
+          <label control="dictionarysearchMenuText1" value="&dictionarysearch.menutext;"/>
+          <textbox id="dictionarysearchMenuText1" size="50" tabindex="0" flex="1"/>
+        </row>
+        <row>
+          <label control="dictionarysearchURL1" value="&dictionarysearch.url;"/>
+          <textbox id="dictionarysearchURL1" size="50" tabindex="1"/>
+        </row>
+      </rows>
+    </grid>
+
+    <description><html:b>&dictionarysearch.dictionary; 2</html:b></description>
+    <grid flex="1">
+      <columns>
+        <column flex="0"/>
+        <column flex="1"/>
+      </columns>
+      <rows>
+        <row>
+          <label control="dictionarysearchMenuText2" value="&dictionarysearch.menutext;"/>
+          <textbox id="dictionarysearchMenuText2" size="50" tabindex="2" flex="1"/>
+        </row>
+        <row>
+          <label control="dictionarysearchURL2" value="&dictionarysearch.url;"/>
+          <textbox id="dictionarysearchURL2" size="50" tabindex="3"/>
+        </row>
+      </rows>
+    </grid>
+
+    <description><html:b>&dictionarysearch.dictionary; 3</html:b></description>
+    <grid flex="1">
+      <columns>
+        <column flex="0"/>
+        <column flex="1"/>
+      </columns>
+      <rows>
+        <row>
+          <label control="dictionarysearchMenuText3" value="&dictionarysearch.menutext;"/>
+          <textbox id="dictionarysearchMenuText3" size="50" tabindex="4" flex="1"/>
+        </row>
+        <row>
+          <label control="dictionarysearchURL3" value="&dictionarysearch.url;"/>
+          <textbox id="dictionarysearchURL3" size="50" tabindex="5"/>
+        </row>
+      </rows>
+    </grid>
+
+    <description><html:b>&dictionarysearch.dictionary; 4</html:b></description>
+    <grid flex="1">
+      <columns>
+        <column flex="0"/>
+        <column flex="1"/>
+      </columns>
+      <rows>
+        <row>
+          <label control="dictionarysearchMenuText4" value="&dictionarysearch.menutext;"/>
+          <textbox id="dictionarysearchMenuText4" size="50" tabindex="6" flex="1"/>
+        </row>
+        <row>
+          <label control="dictionarysearchURL4" value="&dictionarysearch.url;"/>
+          <textbox id="dictionarysearchURL4" size="50" tabindex="7"/>
+        </row>
+      </rows>
+    </grid>
+
+    <description><html:b>&dictionarysearch.dictionary; 5</html:b></description>
+    <grid flex="1">
+      <columns>
+        <column flex="0"/>
+        <column flex="1"/>
+      </columns>
+      <rows>
+        <row>
+          <label control="dictionarysearchMenuText5" value="&dictionarysearch.menutext;"/>
+          <textbox id="dictionarysearchMenuText5" size="50" tabindex="8" flex="1"/>
+        </row>
+        <row>
+          <label control="dictionarysearchURL5" value="&dictionarysearch.url;"/>
+          <textbox id="dictionarysearchURL5" size="50" tabindex="9"/>
+        </row>
+      </rows>
+    </grid>
+
+    <description><html:b>&dictionarysearch.dictionary; 6</html:b></description>
+    <grid flex="1">
+      <columns>
+        <column flex="0"/>
+        <column flex="1"/>
+      </columns>
+      <rows>
+        <row>
+          <label control="dictionarysearchMenuText6" value="&dictionarysearch.menutext;"/>
+          <textbox id="dictionarysearchMenuText6" size="50" tabindex="10" flex="1"/>
+        </row>
+        <row>
+          <label control="dictionarysearchURL6" value="&dictionarysearch.url;"/>
+          <textbox id="dictionarysearchURL6" size="50" tabindex="11"/>
+        </row>
+      </rows>
+    </grid>
+
+</groupbox>
+
+</dialog>

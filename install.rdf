@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>{a0faa0a4-f1a7-4098-9a74-21efc3a92372}</em:id>
+    <em:version>20.0.0</em:version>
+    
+    <!-- Target Application this extension can install into, 
+        with minimum and maximum supported versions. --> 
+    <!-- Firefox -->
+    <em:targetApplication>
+     <Description>
+       <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+       <em:minVersion>1.5</em:minVersion>
+       <em:maxVersion>20.*</em:maxVersion>
+     </Description>
+    </em:targetApplication>
+
+    <!-- Thunderbird -->
+    <em:targetApplication>
+     <Description>
+       <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
+       <em:minVersion>1.5</em:minVersion>
+       <em:maxVersion>20.*</em:maxVersion>
+     </Description>
+    </em:targetApplication>
+    
+    <!-- Front End MetaData -->
+    <em:name>DictionarySearch</em:name>
+    <em:description>Looks up selected word in an online dictionary</em:description>
+    <em:creator>Jaap Haitsma</em:creator>
+    <em:homepageURL>http://dictionarysearch.mozdev.org/</em:homepageURL>
+
+    <!-- Front End Integration Hooks (used by Extension Manager)-->
+    <em:optionsURL>chrome://dictionarysearch/content/dictionarysearchPrefDialog.xul</em:optionsURL>    
+    <em:iconURL>chrome://dictionarysearch/skin/dictionarysearch.png</em:iconURL>
+  </Description>      
+</RDF>

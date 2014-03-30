@@ -1,0 +1,75 @@
+<!-- $Id: dictionarysearch.dtd,v 1.1 2005/11/05 23:09:10 jaap Exp $ -->
+
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   -
+   - The Initial Developer of the Original Code is Jaap Haitsma.
+   - Portions created by the Initial Developer are Copyright (C) 2003
+   - by the Initial Developer. All Rights Reserved.
+ 
+   - Contributor(s): Jaap Haitsma <jaap@haitsma.org>
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!--DO NOT Translate the next three items -->
+<!ENTITY dictionarysearch.title                             "Dictionary Search">
+<!ENTITY dictionarysearch.homepage.URL                      "http://dictionarysearch.mozdev.org">
+<!ENTITY dictionarysearch.default.URL                       "http://www.tfd.com/$">
+<!-- ################################################################################################ -->
+
+<!ENTITY dictionarysearch.default.menutext                  "Search Dictionary for &quot;$&quot;">
+
+<!ENTITY dictionarysearch.menutext                          "Text:">
+<!ENTITY dictionarysearch.accesskey                         "Access Key:">
+<!ENTITY dictionarysearch.url                               "URL:">
+
+<!ENTITY dictionarysearch.dictionary                        "Dictionary">
+<!ENTITY dictionarysearch.settings                          "Settings">
+
+
+<!ENTITY dictionarysearch.help.par1.text                    "In the DictionarySearch settings dialog you can specify the dictionaries you
+                                                             want to use and the text that has to appear in the context menu for that dictionary."> 
+
+
+<!ENTITY dictionarysearch.help.par2.title                   "Text"> 
+
+<!ENTITY dictionarysearch.help.par2.text1                   "This is the text of the menu item that will appear in the context menu. 
+                                                              The text should contain a  $ sign because the $ sign will be replaced by the word 
+                                                              that has been selected. You can set it for example to:"> 
+
+<!ENTITY dictionarysearch.help.par2.text2                   "If you leave this item empty, that specific dictionary will not be added to the 
+                                                             context menu.">
+
+
+<!ENTITY dictionarysearch.help.par4.title                    "URL"> 
+
+<!ENTITY dictionarysearch.help.par4.text1                    "This is the URL for the online dictionary you want to use. The URL should contain a
+                                                              $ sign because the $ sign will be replaced by the word that has been selected. 
+                                                              For example if you want to use tfd.com you set it to:"> 
+
+<!ENTITY dictionarysearch.help.par4.text2                     "For a list of dictionaries visit:">
+
+

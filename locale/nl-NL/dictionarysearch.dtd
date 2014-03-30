@@ -1,0 +1,83 @@
+<!-- $Id: dictionarysearch.dtd,v 1.1 2005/11/05 23:09:17 jaap Exp $ -->
+
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   -
+   - The Initial Developer of the Original Code is Jaap Haitsma.
+   - Portions created by the Initial Developer are Copyright (C) 2003
+   - by the Initial Developer. All Rights Reserved.
+ 
+   - Contributor(s): Jaap Haitsma <jaap@haitsma.org>
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!--DO NOT Translate the next three items -->
+<!ENTITY dictionarysearch.title                             "Dictionary Search">
+<!ENTITY dictionarysearch.homepage.URL                      "http://dictionarysearch.mozdev.org">
+<!ENTITY dictionarysearch.default.URL                       "http://www.tfd.com/$">
+<!-- ################################################################################################ -->
+
+<!ENTITY dictionarysearch.default.menutext                  "Woordenboek zoekopdracht voor &quot;$&quot;">
+<!-- The accesskey should be a letter that is in the default.menutext -->
+<!ENTITY dictionarysearch.default.accesskey                 "W">
+
+<!ENTITY dictionarysearch.menutext                          "Tekst:">
+<!ENTITY dictionarysearch.accesskey                         "Sneltoets:">
+<!ENTITY dictionarysearch.url                               "Adres:">
+
+<!ENTITY dictionarysearch.dictionary                        "Woordenboek">
+<!ENTITY dictionarysearch.settings                          "Instellingen">
+
+
+<!ENTITY dictionarysearch.help.par1.text                    "In het Woordenboek zoekinstellingen venster kunt u de te gebruiken woordenboeken specificeren
+                                                             en de tekst die in het rechtmuisknop menu komt, voor dat betreffende woordenboek."> 
+
+
+<!ENTITY dictionarysearch.help.par2.title                   "Tekst"> 
+
+<!ENTITY dictionarysearch.help.par2.text1                   "Dit is the tekst van het menuitem dat in het rechtermuisknop menu komt. 
+                                                              De tekst moet een $ teken bevatten, omdat het $ teken wordt vervangen door het geselecteerde woord. 
+                                                              U kunt bijvoorbeeld het volgende invullen:"> 
+
+<!ENTITY dictionarysearch.help.par2.text2                   "Als u dit menu leeg laat, dan wordt het betreffende woordenboek niet opgenomen in het 
+                                                             rechtermuisknop menu.">
+
+
+<!ENTITY dictionarysearch.help.par3.title                   "Sneltoets"> 
+
+<!ENTITY dictionarysearch.help.par3.text1                   "De sneltoets is de letter (onderstreept) die u kunt gebruiken om door middel van het toetsenbord de 
+                                                             optie te gebruiken, deze vindt u in het rechtermuisknop menu. Het zou de letter moeten zijn welke voorkomt in de menu tekst."> 
+
+
+<!ENTITY dictionarysearch.help.par4.title                    "Adres"> 
+
+<!ENTITY dictionarysearch.help.par4.text1                    "Dit is het adres van het online woordenboek die u wilt gebruiken. Het adres zal een $ teken moeten bevatten,
+                                                              omdat het $ teken vervangen wordt door het woord dat u geselecteerd hebt. 
+                                                              Een voorbeeld als u VanDale.nl wilt gebruiken:"> 
+
+<!ENTITY dictionarysearch.help.par4.text2                     "Voor een lijst met woordenboeken bezoek:">
+
+

@@ -1,0 +1,58 @@
+<!-- $Id: dictionarysearch.dtd,v 1.1 2006/09/09 13:49:11 jaap Exp $ -->
+
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   -
+   - The Initial Developer of the Original Code is Jaap Haitsma.
+   - Portions created by the Initial Developer are Copyright (C) 2003
+   - by the Initial Developer. All Rights Reserved.
+ 
+   - Contributor(s): Jaap Haitsma <jaap@haitsma.org>
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!--DO NOT Translate the next three items -->
+<!ENTITY dictionarysearch.title                             "Dictionary Search">
+<!ENTITY dictionarysearch.homepage.URL                      "http://dictionarysearch.mozdev.org">
+<!ENTITY dictionarysearch.default.URL                       "http://www.tfd.com/$">
+<!-- ################################################################################################ -->
+
+<!ENTITY dictionarysearch.accesskey         "Klávesová skratka:">
+<!ENTITY dictionarysearch.default.accesskey "N">
+<!ENTITY dictionarysearch.default.menutext  "Nájsť v slovníku &quot;$&quot;">
+<!ENTITY dictionarysearch.dictionary        "Slovník">
+<!ENTITY dictionarysearch.help.par1.text    "V dialógovom okne Nastavenia - DictionarySearch môžete zvoliť slovník, ktorý chcete používať a text, ktorý sa má zobraziť v kontextovom menu.">
+<!ENTITY dictionarysearch.help.par2.text1   "Toto je text položky, ktorý sa objaví v kontextovom menu. Text by mal obsahovať aj znak $. Tento znak bude nahradený označeným hľadaným výrazom. Môžete použiť napr.:">
+<!ENTITY dictionarysearch.help.par2.text2   "Pokiaľ necháte túto položku nevyplnenú, do kontextového menu nebude slovník pridaný.">
+<!ENTITY dictionarysearch.help.par2.title   "Text">
+<!ENTITY dictionarysearch.help.par3.text1   "Klávesová skratka je klávesa používaná pre prístup k slovníku z klávesnice. Písmeno bude v položke kontextového menu podčiarknuté. Text položky by mal toto písmeno aj obsahovať.">
+<!ENTITY dictionarysearch.help.par3.title   "Klávesová skratka">
+<!ENTITY dictionarysearch.help.par4.text1   "Toto je adresa online slovníka, ktorý chcete použiť. Adresa by mala obsahovať znak $. Tento znak bude nahradený označeným hľadaným výrazom. Pre preklady z angličtiny do slovenčiny možno použiť GNU/FDL Anglicko-Slovenský slovník na http://slovnik.cyberspace.sk. Implicitne je v DictionarySearch možnosť použiť slovník TheFreeDictionary.com (http://www.tfd.com) ktorého URL je:">
+<!ENTITY dictionarysearch.help.par4.text2   "Zoznam všetkých dostupných slovníkov nájdete na:">
+<!ENTITY dictionarysearch.help.par4.title   "URL">
+<!ENTITY dictionarysearch.menutext          "Text:">
+<!ENTITY dictionarysearch.settings          "Nastavenia">
+<!ENTITY dictionarysearch.url               "URL:">

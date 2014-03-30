@@ -1,0 +1,23 @@
+overlay	chrome://browser/content/browser.xul	chrome://dictionarysearch/content/dictionarysearchOverlay.xul
+overlay	chrome://messenger/content/mailWindowOverlay.xul	chrome://dictionarysearch/content/dictionarysearchThunderbirdOverlay.xul application={3550f703-e582-4d05-9a08-453d09bdfdc6} appversion<3.0
+overlay	chrome://messenger/content/messengercompose/messengercompose.xul	chrome://dictionarysearch/content/dictionarysearchThunderbirdOverlay.xul application={3550f703-e582-4d05-9a08-453d09bdfdc6} appversion<3.0
+overlay	chrome://messenger/content/mailWindowOverlay.xul	chrome://dictionarysearch/content/dictionarysearchThunderbird3Overlay.xul application={3550f703-e582-4d05-9a08-453d09bdfdc6} appversion>=3.0
+overlay	chrome://messenger/content/messengercompose/messengercompose.xul	chrome://dictionarysearch/content/dictionarysearchThunderbird3Overlay.xul application={3550f703-e582-4d05-9a08-453d09bdfdc6} appversion>=3.0
+
+content dictionarysearch jar:chrome/dictionarysearch.jar!/content/
+
+locale dictionarysearch en-US jar:chrome/dictionarysearch.jar!/locale/en-US/
+locale dictionarysearch fr-FR  jar:chrome/dictionarysearch.jar!/locale/fr-FR/
+locale dictionarysearch de-DE jar:chrome/dictionarysearch.jar!/locale/de-DE/
+locale dictionarysearch it-IT jar:chrome/dictionarysearch.jar!/locale/it-IT/
+locale dictionarysearch es-ES jar:chrome/dictionarysearch.jar!/locale/es-ES/
+locale dictionarysearch ca-AD jar:chrome/dictionarysearch.jar!/locale/ca-AD/
+locale dictionarysearch nl-NL jar:chrome/dictionarysearch.jar!/locale/nl-NL/
+locale dictionarysearch cs-CZ jar:chrome/dictionarysearch.jar!/locale/cs-CZ/
+locale dictionarysearch fi-FI jar:chrome/dictionarysearch.jar!/locale/fi-FI/
+locale dictionarysearch he-IL jar:chrome/dictionarysearch.jar!/locale/he-IL/
+locale dictionarysearch pt-BR jar:chrome/dictionarysearch.jar!/locale/pt-BR/
+locale dictionarysearch nb-NO jar:chrome/dictionarysearch.jar!/locale/nb-NO/
+locale dictionarysearch pl-PL jar:chrome/dictionarysearch.jar!/locale/pl-PL/
+locale dictionarysearch sk-SK jar:chrome/dictionarysearch.jar!/locale/sk-SK/
+skin dictionarysearch classic/1.0 jar:chrome/dictionarysearch.jar!/skin/classic/
