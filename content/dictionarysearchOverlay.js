@@ -39,7 +39,7 @@ if(!org.mozdev.dictionarysearch) org.mozdev.dictionarysearch={};
 
 
 org.mozdev.dictionarysearch = {
-    DEBUG: true,
+    DEBUG: false,
     NUM_DICTIONARIES: 6,
     stringBundle: null,
     prefs: null,
