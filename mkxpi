@@ -1,19 +1,11 @@
 #!/bin/sh
-#$Id: mkxpi,v 1.7 2005/11/05 23:03:47 jaap Exp $
-APP_NAME=dictionarysearch
+APP_NAME=dictionarysearch.xpi
 rm ${APP_NAME}.xpi
-find content -name "*.xul" -print | zip ${APP_NAME}.jar -@
-find content -name "*.js" -print | zip ${APP_NAME}.jar -@
-find locale -name "*.dtd" -print | zip ${APP_NAME}.jar -@
-find locale -name "*.properties" -print | zip ${APP_NAME}.jar -@
-find skin -name "*.png" -print | zip ${APP_NAME}.jar -@
+find . -name "*.xul" -print | zip ${APP_NAME} -@
+find . -name "*.js" -print | zip ${APP_NAME} -@
+find . -name "*.dtd" -print | zip ${APP_NAME} -@
+find . -name "*.properties" -print | zip ${APP_NAME} -@
+find . -name "*.png" -print | zip ${APP_NAME} -@
 
-mkdir chrome
-mv ${APP_NAME}.jar chrome
-
-zip ${APP_NAME}.xpi chrome/${APP_NAME}.jar install.rdf chrome.manifest
-#cp -f ${APP_NAME}.jar ~/.mozilla/default/j74qix32.slt/chrome
-#cp -f ${APP_NAME}.jar ~/.firefox/default/vn7t3d2h.slt/chrome
-#cp -f ${APP_NAME}.jar  ~/.mozilla-thunderbird/default/1e04arh6.slt/chrome 
-rm -rf chrome
+zip ${APP_NAME} install.rdf chrome.manifest
 
