@@ -1,5 +1,5 @@
 /* -*- Mode: js; indent-tabs-mode: t; c-basic-offset: 4; tab-width: 4 -*- */
-// $Id: dictionarysearchOverlay.js,v 1.35 2012/02/12 12:11:51 jaap Exp $
+// $Id: dictionarysearchOverlay.js,v 1.37 2016/03/12 19:24:25 jaap Exp $
 
 /* ***** BEGIN LICENSE BLOCK ***** 
  * Version: MPL 1.1/GPL 2.0/LGPL 2.1
@@ -44,7 +44,7 @@ org.mozdev.dictionarysearch = {
     stringBundle: null,
     prefs: null,
     APP_NAME: "DictionarySearch",
-    VERSION: "28.0.0",
+    VERSION: "45.0.0",
     inThunderbird: false,
 
     dumpObject: function(obj) {
@@ -57,13 +57,7 @@ org.mozdev.dictionarysearch = {
         if (!this.DEBUG) {
             return;
         }
-        if (navigator.userAgent.search(/Thunderbird/gi) != -1){ // In Thunderbird
-            var consoleService = Components.classes["@mozilla.org/consoleservice;1"].getService(Components.interfaces.nsIConsoleService);
-            consoleService.logStringMessage(this.APP_NAME + ": " + str);
-        } else {
-            var console = Components.utils.import("resource://gre/modules/devtools/Console.jsm", {}).console;
-            console.log(this.APP_NAME + ": " + str);            
-        }
+        console.log(this.APP_NAME + ": " + str);            
     },
 
     openURL: function(url){
@@ -277,9 +271,9 @@ org.mozdev.dictionarysearch = {
         }
         return true;
     }
-};
+}
 
 
 // Every time a new browser window is made init will be called
-window.addEventListener("load", function() {org.mozdev.dictionarysearch.init()},false);
+window.addEventListener("load", function() {org.mozdev.dictionarysearch.init()}, false);
 
